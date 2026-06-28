@@ -4,12 +4,12 @@
    ============================================================ */
 
 :root {
-  /* Merkkleuren — afgestemd op de app-screenshots */
-  --navy:        #0d2a44;  /* primaire knoppen, koppen, logo */
-  --navy-deep:   #0a2236;
-  --teal:        #1596a3;  /* accent: "in Scheveningen", actieve chips, iconen */
-  --teal-strong: #0f8693;  /* hover / actieve vullingen */
-  --teal-soft:   #e4f3f5;  /* lichte icoon-/badge-achtergrond */
+  /* Merkkleuren — exact gemeten uit de app-screenshots */
+  --navy:        #0a2240;  /* primaire knoppen, koppen */
+  --navy-deep:   #061b39;  /* logo-navy (gemeten) */
+  --teal:        #1a8fa3;  /* accent: "in Scheveningen", actieve chips, iconen (gemeten) */
+  --teal-strong: #16808f;  /* hover / actieve vullingen */
+  --teal-soft:   #e3f2f4;  /* lichte icoon-/badge-achtergrond */
 
   --green:      #1fa463;
   --green-soft: #e2f6ec;
@@ -130,19 +130,15 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0
 }
 .lang-btn[aria-pressed="true"] { background: #fff; color: var(--teal-strong); box-shadow: var(--shadow-sm); }
 
-/* ---------- Hero (met strand/zee-foto, exact zoals de app) ---------- */
+/* ---------- Hero (licht/wit, zoals de app) ---------- */
 .hero {
   position: relative;
   overflow: hidden;
-  /* Strandfoto als achtergrond. Upload assets/hero-bg.jpg voor de exacte foto;
-     ontbreekt die, dan blijft de navy-overlay over een navy vlak zichtbaar. */
-  background-color: var(--navy);
-  background-image:
-    linear-gradient(180deg, rgba(8, 28, 46, 0.58), rgba(8, 28, 46, 0.74)),
-    url("assets/hero-bg.jpg");
-  background-size: cover;
-  background-position: center;
-  padding: clamp(44px, 7vw, 88px) 0 clamp(52px, 8vw, 96px);
+  background:
+    radial-gradient(900px 440px at 88% -12%, rgba(26, 143, 163, 0.12), transparent 60%),
+    radial-gradient(760px 440px at -5% 0%, rgba(26, 143, 163, 0.08), transparent 55%),
+    #ffffff;
+  padding: clamp(40px, 6.5vw, 80px) 0 clamp(48px, 7.5vw, 92px);
 }
 .hero-grid {
   position: relative;
@@ -151,32 +147,26 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0
   gap: clamp(32px, 6vw, 56px);
   align-items: center;
 }
-.hero-text { text-align: center; color: #fff; }
+.hero-text { text-align: center; }
 
 .badge {
   display: inline-block;
-  background: rgba(255, 255, 255, 0.14);
-  color: #fff;
-  border: 1px solid rgba(255, 255, 255, 0.34);
+  background: var(--teal-soft);
+  color: var(--teal-strong);
+  border: 1px solid rgba(26, 143, 163, 0.25);
   padding: 0.45em 1em;
   border-radius: 999px;
   font-size: 0.86rem;
   font-weight: 600;
-  -webkit-backdrop-filter: blur(4px);
-  backdrop-filter: blur(4px);
   margin-bottom: 1.3em;
 }
+.badge-light { background: rgba(255,255,255,0.16); color: #fff; border-color: rgba(255,255,255,0.4); }
 
-.hero-title { font-size: clamp(2rem, 5.5vw, 3.4rem); font-weight: 800; color: #fff; }
-.hero-title .accent { color: #5fd0db; }
-.hero-sub { font-size: clamp(1.04rem, 2.2vw, 1.24rem); color: rgba(255,255,255,0.9); max-width: 560px; margin: 0 auto 1.7em; }
+.hero-title { font-size: clamp(2rem, 5.5vw, 3.4rem); font-weight: 800; color: var(--navy); }
+.hero-title .accent { color: var(--teal); }
+.hero-sub { font-size: clamp(1.04rem, 2.2vw, 1.24rem); color: var(--muted); max-width: 560px; margin: 0 auto 1.7em; }
 .hero-cta { display: flex; flex-wrap: wrap; gap: 0.8em; justify-content: center; }
-/* Op de donkere hero: primaire knop in teal voor contrast, ghost wit-transparant */
-.hero .btn-primary { background: var(--teal); }
-.hero .btn-primary:hover { background: var(--teal-strong); }
-.hero .btn-ghost { background: rgba(255,255,255,0.12); color: #fff; border-color: rgba(255,255,255,0.5); }
-.hero .btn-ghost:hover { background: rgba(255,255,255,0.2); border-color: #fff; }
-.hero-note { margin-top: 1.2em; font-size: 0.88rem; color: rgba(255,255,255,0.7); }
+.hero-note { margin-top: 1.2em; font-size: 0.88rem; color: var(--muted-light); }
 
 /* ---------- Screenshots (app) ---------- */
 .shot { margin: 0; display: flex; justify-content: center; }
@@ -188,14 +178,13 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0
   border: 2px dashed var(--line); border-radius: 28px;
   background: linear-gradient(160deg, var(--teal-soft), #d3edf1);
 }
-.shot-hero.is-missing { max-width: 300px; border-color: rgba(255,255,255,0.5); background: rgba(255,255,255,0.12); }
+.shot-hero.is-missing { max-width: 300px; }
 .shot.is-missing img { display: none; }
 .shot.is-missing .shot-fallback {
   display: flex; width: 100%; height: 100%;
   align-items: center; justify-content: center; text-align: center;
   color: var(--teal-strong); font-size: 0.9rem; font-weight: 600; padding: 1em;
 }
-.shot-hero.is-missing .shot-fallback { color: #fff; }
 
 /* ---------- Secties ---------- */
 .section { padding: clamp(52px, 8vw, 96px) 0; }
