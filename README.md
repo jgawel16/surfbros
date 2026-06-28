@@ -54,13 +54,8 @@ toestemmingsbanner (AVG-vriendelijk). De aanmelding wordt bovendien als
 `signup`-event meegestuurd, zodat je bezoekers én aanmeldingen in één dashboard
 ziet.
 
-**Aanzetten (~2 min):**
-1. Maak een gratis account op <https://www.goatcounter.com/>.
-2. Je krijgt een adres zoals `https://JOUWCODE.goatcounter.com`.
-3. In `index.html`, onderaan, vervang **`JOUWCODE`** door jouw code
-   (in `data-goatcounter="https://JOUWCODE.goatcounter.com/count"`).
-
-Zolang `JOUWCODE` niet is ingevuld, wordt er niets geteld (geen kwaad). Liever
+Dit is **actief** en gekoppeld aan `https://surfbros.goatcounter.com`. Je
+statistieken bekijk je op dat dashboard (inloggen via goatcounter.com). Liever
 een andere tool (Cloudflare Web Analytics, Plausible, GA4)? Laat het weten.
 
 ## ✅ Wat je nog moet doen
