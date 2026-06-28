@@ -16,22 +16,30 @@ verleidt hem/haar om een e-mailadres achter te laten via een Google Form.
 | `script.js`        | Kleine helper (jaartal in de footer)                |
 | `assets/`          | Map voor je eigen screenshots                       |
 
+## E-mailcapture (al gekoppeld)
+
+Het aanmeldformulier op de pagina is een **eigen formulier** dat op de
+achtergrond naar Google Forms stuurt. De bezoeker blijft op de site, vult zijn
+e-mail in en krijgt direct een bedankbericht — hij wordt **niet** naar Google
+doorgestuurd. De inzendingen komen binnen in de Google Form "Surfbro's
+newsletter" (en de gekoppelde Google Sheet).
+
+- Endpoint en veld-ID staan in `index.html` (`<form id="signup-form">`).
+- E-mailveld = `entry.1216709819`.
+- Wil je een veld toevoegen (bv. naam)? Voeg de vraag toe in Google Forms, zoek
+  het nieuwe `entry.xxxx`-ID op en voeg een extra `<input>` met die `name` toe.
+
+> Let op: tijdens het bouwen is er één testinzending verstuurd
+> (`test-verwijderen@surfbros-test.nl`). Verwijder die rij even in je Sheet.
+
 ## ✅ Wat je nog moet doen
 
-### 1. Je Google Form koppelen (e-mails verzamelen)
-
-1. Maak een Google Form met één veld: e-mailadres (eventueel + naam).
-2. Klik rechtsboven op **Verzenden** (Send) → kies het **`< >`** (embed)-icoon.
-3. Kopieer de `<iframe …>` code en zet `width="100%"`.
-4. Open `index.html`, zoek naar **`GOOGLE FORM KOMT HIER`** en vervang het
-   `<div class="form-card">…</div>` blok door jouw iframe.
-
-### 2. Screenshots toevoegen
+### 1. Screenshots toevoegen
 
 Zie [`assets/README.md`](assets/README.md). Zoek in `index.html` naar
 `SCREENSHOT-PLACEHOLDER`.
 
-### 3. Tekst checken
+### 2. Tekst checken
 
 Let in `index.html` vooral op de sectie **early-access** (de FOMO/voordeel-tekst):
 vul daar het concrete voordeel in dat de eerste instructeurs krijgen.

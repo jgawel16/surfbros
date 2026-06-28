@@ -221,27 +221,38 @@
         </p>
 
         <!-- ============================================================
-             GOOGLE FORM KOMT HIER.
-             Vervang het hele <div class="form-card"> blok hieronder door de
-             embed-code van jouw Google Form. In Google Forms:
-               Verzenden (Send)  →  < >  (Embed-icoon)  →  kopieer de <iframe>
-             en plak die hier. Stel de breedte in op width="100%".
+             EIGEN FORMULIER — stuurt op de achtergrond naar Google Forms.
+             De bezoeker blijft op deze pagina (geen doorverwijzing).
 
-             Voorbeeld:
-             <iframe src="https://docs.google.com/forms/d/e/JOUW_FORM_ID/viewform?embedded=true"
-                     width="100%" height="640" frameborder="0"
-                     marginheight="0" marginwidth="0">Laden…</iframe>
+             Gekoppeld aan Google Form "Surfbro's newsletter".
+             - Endpoint:  .../formResponse   (zie data-action in JS)
+             - E-mailveld: entry.1216709819
+             Wil je later een ander veld toevoegen (bv. naam)? Voeg dan in
+             Google Forms een vraag toe, zoek het nieuwe entry-ID op en voeg
+             hier een extra input met die name toe.
              ============================================================ -->
         <div class="form-card">
-          <div class="form-placeholder">
-            <span class="mock-tag">Google Form — plaats hier je embed-code</span>
-            <form class="demo-form" onsubmit="return false;" aria-label="Voorbeeldformulier (placeholder)">
-              <input type="email" placeholder="jouw@email.nl" disabled />
-              <button type="submit" class="btn btn-primary" disabled>Houd mij op de hoogte</button>
-            </form>
-            <p class="form-hint">
-              Dit is een voorbeeld. Zodra je je Google Form koppelt, verschijnt
-              het echte formulier op deze plek.
+          <form id="signup-form"
+                action="https://docs.google.com/forms/d/e/1FAIpQLSdZiBjY2HY26_bRBfFriI5evOH6FNLTtyxTTFawiMwDuxeKbQ/formResponse"
+                method="POST">
+            <div class="field-row">
+              <input id="email" name="entry.1216709819" type="email" required
+                     autocomplete="email" placeholder="jouw@email.nl"
+                     aria-label="Je e-mailadres" />
+              <button type="submit" class="btn btn-primary">Houd mij op de hoogte</button>
+            </div>
+            <p class="form-error" id="form-error" role="alert" hidden>
+              Vul een geldig e-mailadres in.
+            </p>
+          </form>
+
+          <!-- Bedankbericht: verschijnt na een geslaagde inzending -->
+          <div class="form-success" id="form-success" hidden>
+            <span class="success-icon" aria-hidden="true">🤙</span>
+            <h3>Je staat op de lijst!</h3>
+            <p>
+              Top — je hoort als eerste wanneer Surfbro's live gaat in
+              Scheveningen. Tot in het water! 🌊
             </p>
           </div>
         </div>
