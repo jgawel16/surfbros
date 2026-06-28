@@ -6,15 +6,27 @@ waar vaardige surfers betaald les geven) wordt later gebouwd.
 
 De pagina informeert de bezoeker over het idee, laat de voordelen zien en
 verleidt hem/haar om een e-mailadres achter te laten via een Google Form.
+De huisstijl (navy + teal, script-logo) volgt de echte Surfbro's-app.
+
+## Tweetalig (NL / EN)
+
+De site is volledig tweetalig. Rechtsboven zit een **NL / EN**-schuifje.
+De keuze wordt onthouden (in de browser) en nieuwe bezoekers krijgen
+automatisch Nederlands of Engels op basis van hun browsertaal.
+
+Alle teksten staan in `script.js` in het object `I18N` (een blok `nl` en een
+blok `en`). Wil je een tekst aanpassen? Pas 'm in **beide** talen aan. Elk
+stukje tekst op de pagina is gekoppeld via een `data-i18n="..."`-sleutel in
+`index.html`.
 
 ## Bestanden
 
-| Bestand            | Wat het doet                                        |
-| ------------------ | --------------------------------------------------- |
-| `index.html`       | De volledige pagina (alle tekst staat hierin)       |
-| `styles.css`       | De vormgeving (oceaan-kleuren, clean & modern)      |
-| `script.js`        | Kleine helper (jaartal in de footer)                |
-| `assets/`          | Map voor je eigen screenshots                       |
+| Bestand            | Wat het doet                                          |
+| ------------------ | ---------------------------------------------------- |
+| `index.html`       | De paginastructuur (met `data-i18n`-sleutels)        |
+| `styles.css`       | De vormgeving (navy + teal, clean & modern)          |
+| `script.js`        | Vertalingen (NL/EN), taalwissel en het formulier     |
+| `assets/`          | Map voor je app-screenshots                          |
 
 ## E-mailcapture (al gekoppeld)
 
@@ -34,15 +46,22 @@ newsletter" (en de gekoppelde Google Sheet).
 
 ## ✅ Wat je nog moet doen
 
-### 1. Screenshots toevoegen
+### 1. Screenshots toevoegen (belangrijkste)
 
-Zie [`assets/README.md`](assets/README.md). Zoek in `index.html` naar
-`SCREENSHOT-PLACEHOLDER`.
+De site laadt drie app-screenshots uit `assets/`. Upload ze met deze exacte namen:
+
+- `assets/app-home.png` — startscherm (hero)
+- `assets/app-profile.png` — instructeursprofiel (stap 1)
+- `assets/app-search.png` — zoekresultaten (stap 2)
+
+Zie [`assets/README.md`](assets/README.md) voor de stap-voor-stap upload via
+GitHub. Zolang een bestand ontbreekt toont de site een nette tijdelijke plek.
 
 ### 2. Tekst checken
 
-Let in `index.html` vooral op de sectie **early-access** (de FOMO/voordeel-tekst):
-vul daar het concrete voordeel in dat de eerste instructeurs krijgen.
+De FOMO/voordeel-tekst staat in `script.js` onder de sleutel `fomo.lead`
+(in `nl` én `en`). Vul daar het concrete voordeel in dat de eerste surfbro's
+krijgen.
 
 ## 🚀 Live zetten met GitHub Pages
 
