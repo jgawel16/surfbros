@@ -210,6 +210,12 @@ document.addEventListener("DOMContentLoaded", function () {
       fetch(form.action, { method: "POST", mode: "no-cors", body: data })
         .catch(function () {});
 
+      // Aanmelding als event naar GoatCounter (als analytics actief is).
+      // Zo zie je in één dashboard: unieke bezoekers + aantal aanmeldingen.
+      if (window.goatcounter && window.goatcounter.count) {
+        window.goatcounter.count({ path: "signup", title: "E-mail aanmelding", event: true });
+      }
+
       setTimeout(function () {
         if (form) form.hidden = true;
         if (success) success.hidden = false;

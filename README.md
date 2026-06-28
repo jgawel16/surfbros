@@ -44,6 +44,25 @@ newsletter" (en de gekoppelde Google Sheet).
 > Let op: tijdens het bouwen is er één testinzending verstuurd
 > (`test-verwijderen@surfbros-test.nl`). Verwijder die rij even in je Sheet.
 
+## Bezoekers tellen (conversie meten)
+
+Om te zien hoeveel % van de bezoekers zich aanmeldt, tel je **unieke bezoekers**
+(de noemer) naast je **aanmeldingen** (de teller, uit Google Forms).
+
+Hiervoor is **GoatCounter** ingebouwd — gratis, cookieloos en zonder verplichte
+toestemmingsbanner (AVG-vriendelijk). De aanmelding wordt bovendien als
+`signup`-event meegestuurd, zodat je bezoekers én aanmeldingen in één dashboard
+ziet.
+
+**Aanzetten (~2 min):**
+1. Maak een gratis account op <https://www.goatcounter.com/>.
+2. Je krijgt een adres zoals `https://JOUWCODE.goatcounter.com`.
+3. In `index.html`, onderaan, vervang **`JOUWCODE`** door jouw code
+   (in `data-goatcounter="https://JOUWCODE.goatcounter.com/count"`).
+
+Zolang `JOUWCODE` niet is ingevuld, wordt er niets geteld (geen kwaad). Liever
+een andere tool (Cloudflare Web Analytics, Plausible, GA4)? Laat het weten.
+
 ## ✅ Wat je nog moet doen
 
 ### 1. Screenshots toevoegen (belangrijkste)
