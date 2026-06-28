@@ -1,13 +1,28 @@
-# Screenshots
+# Afbeeldingen
 
-De landingspagina laadt drie app-screenshots in. Zet ze hier neer met **exact**
-deze bestandsnamen, dan verschijnen ze automatisch op de site:
+De landingspagina laadt deze bestanden in. Zet ze hier neer met **exact** deze
+namen, dan verschijnen ze automatisch op de site. Voor een pixel-exacte
+huisstijl zijn vooral `logo.png` en `hero-bg.jpg` belangrijk.
 
-| Bestandsnaam            | Welke screenshot                                  | Waar op de site            |
-| ----------------------- | ------------------------------------------------- | -------------------------- |
-| `app-home.png`          | Het startscherm ("Boek een local surfer …")       | Hero (bovenaan)            |
-| `app-profile.png`       | Het instructeursprofiel (Milan, badges, prijzen)  | Stap 1 — "Maak je profiel" |
-| `app-search.png`        | De zoekresultaten ("Beschikbare surfbro's")       | Stap 2 — "Cursisten vinden"|
+| Bestandsnaam        | Wat                                               | Waar op de site             |
+| ------------------- | ------------------------------------------------- | --------------------------- |
+| `logo.png`          | Het échte Surfbro's-logo (transparant, PNG)       | Header (links bovenaan)     |
+| `hero-bg.jpg`       | De strand/zee-foto (Scheveningen, met pier)       | Achtergrond van de hero     |
+| `app-home.png`      | Het startscherm ("Boek een local surfer …")       | Hero — telefoonbeeld        |
+| `app-profile.png`   | Het instructeursprofiel (Milan, badges, prijzen)  | Stap 1 — "Maak je profiel"  |
+| `app-search.png`    | De zoekresultaten ("Beschikbare surfbro's")       | Stap 2 — "Cursisten vinden" |
+
+### Logo & hero-foto (voor de exacte look)
+
+- **`logo.png`** — knip in een foto-editor (of via de schaar-tool op je telefoon)
+  alleen het logo uit een van je screenshots, bij voorkeur met transparante
+  achtergrond. Hoogte ±80–120 px is genoeg.
+- **`hero-bg.jpg`** — een liggende strand/zee-foto. Je kunt het bovenste
+  fotogedeelte uit je app-screenshot knippen, of een eigen foto van Scheveningen
+  gebruiken. Liggend, ±1600 px breed, < 500 KB.
+
+Zolang `logo.png` of `hero-bg.jpg` ontbreekt, valt de site terug op een net
+script-logo en een navy hero — er gaat dus niets "stuk".
 
 ## Uploaden via GitHub (zonder code)
 
