@@ -18,8 +18,8 @@ var I18N = {
 
     "kans.title": "Jouw skills zijn geld waard",
     "kans.lead": "Je staat toch al in het water. Op Surfbro's maak je simpelweg je verdienste van wat je het liefste doet.",
-    "stat1.num": "€30–45", "stat1.label": "per uur — jij bepaalt je eigen tarief",
-    "stat2.num": "Jij", "stat2.label": "kiest je eigen tijden en locatie",
+    "stat1.num": "€30–45", "stat1.label": "Privé of groep, hoog seizoen of doordeweeks — jij prijst zoals jij wilt.",
+    "stat2.num": "Jij", "stat2.label": "Geef les wanneer het jou uitkomt. Eén keer per week of elke dag.",
     "stat3.num": "€0", "stat3.label": "opstartkosten — aanmelden is gratis",
 
     "how.title": "Zo werkt het",
@@ -81,8 +81,8 @@ var I18N = {
 
     "kans.title": "Your skills are worth money",
     "kans.lead": "You're in the water anyway. On Surfbro's you simply earn from what you love most.",
-    "stat1.num": "€30–45", "stat1.label": "per hour — you set your own rate",
-    "stat2.num": "You", "stat2.label": "choose your own hours and spot",
+    "stat1.num": "€30–45", "stat1.label": "Private or group, peak season or weekday — you price it how you like.",
+    "stat2.num": "You", "stat2.label": "Teach whenever suits you. Once a week or every day.",
     "stat3.num": "€0", "stat3.label": "to start — signing up is free",
 
     "how.title": "How it works",
