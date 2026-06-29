@@ -311,7 +311,7 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0
 }
 
 @media (min-width: 880px) {
-  .cards { grid-template-columns: repeat(3, 1fr); }
+  .cards { grid-template-columns: repeat(4, 1fr); }
 
   .hero-grid { grid-template-columns: 1.05fr 0.95fr; }
   .hero-text { text-align: left; }

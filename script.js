@@ -46,8 +46,6 @@ var I18N = {
     "card2.title": "Bouw je reputatie op", "card2.text": "Verzamel reviews en ratings en word de go-to surfbro op jouw spot.",
     "card3.title": "Vertrouwd & veilig", "card3.text": "Geverifieerde profielen en veilige betalingen via het platform.",
     "card4.title": "Alles in één app", "card4.text": "Profiel, agenda, berichten en boekingen — alles op één plek.",
-    "card5.title": "Begin lokaal", "card5.text": "We starten in Scheveningen, dus je cursisten zitten dichtbij.",
-    "card6.title": "Certificaat? Extra punt", "card6.text": "Iedere goede surfer kan lesgeven. Heb je een diploma? Dan val je extra op.",
 
     "fomo.badge": "⚡ Beperkt — alleen voor de eerste lichting",
     "fomo.title": "De eerste surfbro's krijgen een streepje voor",
@@ -109,8 +107,6 @@ var I18N = {
     "card2.title": "Build your reputation", "card2.text": "Collect reviews and ratings and become the go-to surfbro on your spot.",
     "card3.title": "Trusted & safe", "card3.text": "Verified profiles and secure payments through the platform.",
     "card4.title": "Everything in one app", "card4.text": "Profile, calendar, messages and bookings — all in one place.",
-    "card5.title": "Start local", "card5.text": "We're launching in Scheveningen, so your students are nearby.",
-    "card6.title": "Certified? A bonus", "card6.text": "Any good surfer can teach. Got a diploma? You stand out even more.",
 
     "fomo.badge": "⚡ Limited — first wave of surfbros only",
     "fomo.title": "The first surfbros get a head start",
