@@ -42,11 +42,11 @@ var I18N = {
 
     "benefits.title": "Waarom lesgeven via Surfbro's?",
     "benefits.lead": "Alle vrijheid van zelfstandig lesgeven, zonder het geregel.",
-    "card1.title": "Jij bepaalt je tarief", "card1.text": "Privé of groep, hoog seizoen of doordeweeks — jij prijst zoals jij wilt.",
-    "card2.title": "Volledig flexibel", "card2.text": "Geef les wanneer het jou uitkomt. Eén keer per week of elke dag.",
-    "card3.title": "Bouw je reputatie op", "card3.text": "Verzamel reviews en ratings en word de go-to surfbro op jouw spot.",
-    "card4.title": "Wij regelen het matchen", "card4.text": "Cursisten vinden jou. Geen marketing, geen flyers — jij focust op surfen.",
-    "card5.title": "Vertrouwd & veilig", "card5.text": "Geverifieerde profielen, reviews en veilige betalingen via het platform.",
+    "card1.title": "Wij regelen het matchen", "card1.text": "Cursisten vinden jou via het platform. Geen marketing, geen flyers — jij focust op surfen.",
+    "card2.title": "Bouw je reputatie op", "card2.text": "Verzamel reviews en ratings en word de go-to surfbro op jouw spot.",
+    "card3.title": "Vertrouwd & veilig", "card3.text": "Geverifieerde profielen en veilige betalingen via het platform.",
+    "card4.title": "Alles in één app", "card4.text": "Profiel, agenda, berichten en boekingen — alles op één plek.",
+    "card5.title": "Begin lokaal", "card5.text": "We starten in Scheveningen, dus je cursisten zitten dichtbij.",
     "card6.title": "Certificaat? Extra punt", "card6.text": "Iedere goede surfer kan lesgeven. Heb je een diploma? Dan val je extra op.",
 
     "fomo.badge": "⚡ Beperkt — alleen voor de eerste lichting",
@@ -105,11 +105,11 @@ var I18N = {
 
     "benefits.title": "Why teach with Surfbro's?",
     "benefits.lead": "All the freedom of teaching independently, without the hassle.",
-    "card1.title": "You set your rate", "card1.text": "Private or group, peak season or weekday — you price it how you like.",
-    "card2.title": "Fully flexible", "card2.text": "Teach whenever suits you. Once a week or every day.",
-    "card3.title": "Build your reputation", "card3.text": "Collect reviews and ratings and become the go-to surfbro on your spot.",
-    "card4.title": "We handle the matching", "card4.text": "Students find you. No marketing, no flyers — you focus on surfing.",
-    "card5.title": "Trusted & safe", "card5.text": "Verified profiles, reviews and secure payments through the platform.",
+    "card1.title": "We handle the matching", "card1.text": "Students find you through the platform. No marketing, no flyers — you focus on surfing.",
+    "card2.title": "Build your reputation", "card2.text": "Collect reviews and ratings and become the go-to surfbro on your spot.",
+    "card3.title": "Trusted & safe", "card3.text": "Verified profiles and secure payments through the platform.",
+    "card4.title": "Everything in one app", "card4.text": "Profile, calendar, messages and bookings — all in one place.",
+    "card5.title": "Start local", "card5.text": "We're launching in Scheveningen, so your students are nearby.",
     "card6.title": "Certified? A bonus", "card6.text": "Any good surfer can teach. Got a diploma? You stand out even more.",
 
     "fomo.badge": "⚡ Limited — first wave of surfbros only",
