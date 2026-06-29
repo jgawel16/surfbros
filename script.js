@@ -1,35 +1,35 @@
-// Surfbro's — taalwissel (NL/EN), formulier en kleine helpers
+// Wavemate — taalwissel (NL/EN), formulier en kleine helpers
 
 // ============================================================
 //  Vertalingen. Waarden mogen simpele HTML bevatten (bv. <br>, <span>).
 // ============================================================
 var I18N = {
   nl: {
-    "doc.title": "Surfbro's — Word surfbro in Scheveningen",
+    "doc.title": "Wavemate — Word wavemate in Scheveningen",
     "nav.cta": "Op de hoogte blijven",
 
     "hero.badge": "🏄 Binnenkort live",
     "hero.title": "Deel je passie voor surfen.<br><span class=\"accent\">En verdien eraan.</span>",
-    "hero.sub": "Surfbro's wordt hét platform waar lokale surfers privé- en groepsles geven. Op jouw tijden, jouw locatie en jouw tarief. Geen baas, geen vaste uren.",
+    "hero.sub": "Wavemate wordt hét platform waar lokale surfers privé- en groepsles geven. Op jouw tijden, jouw locatie en jouw tarief. Geen baas, geen vaste uren.",
     "hero.cta1": "Meld je aan als surfleraar",
     "hero.cta2": "Hoe werkt het?",
     "hero.note": "Gratis & vrijblijvend · je zit nergens aan vast",
-    "hero.shotalt": "Surfbro's app — boek een local surfer in Scheveningen",
+    "hero.shotalt": "Wavemate app — boek een local surfer in Scheveningen",
 
     "kans.title": "Jouw skills zijn geld waard",
-    "kans.lead": "Je staat toch al in het water. Op Surfbro's maak je simpelweg je verdienste van wat je het liefste doet.",
+    "kans.lead": "Je staat toch al in het water. Op Wavemate maak je simpelweg je verdienste van wat je het liefste doet.",
     "stat1.num": "Bepaal je eigen tarief", "stat1.label": "Privé of groep, hoog seizoen of doordeweeks — jij prijst zoals jij wilt.",
     "stat2.num": "Volledig flexibel", "stat2.label": "Geef les wanneer het jou uitkomt. Eén keer per week of elke dag.",
     "stat3.num": "Gratis starten", "stat3.label": "€0 opstartkosten — aanmelden is helemaal gratis.",
 
     "how.title": "Zo werkt het",
     "how.lead": "In een paar stappen van profiel naar je eerste betaalde les.",
-    "step1.title": "Maak je surfbro-profiel",
+    "step1.title": "Maak je wavemate-profiel",
     "step1.text": "Vertel wie je bent, voeg je niveau toe en laat je certificaten zien — EHBO, Water Safety of een instructeursdiploma. Cursisten zien meteen wat je in huis hebt.",
-    "step1.shotalt": "Surfbro-profiel met badges, reviews en sessies & prijzen",
+    "step1.shotalt": "Wavemate-profiel met badges, reviews en sessies & prijzen",
     "step2.title": "Cursisten vinden & boeken jou",
     "step2.text": "Beginners zoeken op locatie, niveau en sessietype, vergelijken ratings en reviews, en boeken jou rechtstreeks. Goede reviews? Dan word jij de 'Top match'.",
-    "step2.shotalt": "Zoekresultaten met beschikbare surfbro's, ratings en 'Top match'",
+    "step2.shotalt": "Zoekresultaten met beschikbare wavemates, ratings en 'Top match'",
     "step3.title": "Bepaal je sessies, prijs & verdien",
     "step3.text": "Privéles, semi-privé of surf guiding — jij bepaalt wat je aanbiedt en voor hoeveel. Jij geeft de les, de cursist geniet, en jij wordt betaald.",
 
@@ -40,57 +40,57 @@ var I18N = {
     "price.perhour": "per uur", "price.pp": "p.p. / uur",
     "price.note": "Voorbeeldtarieven — jij stelt je eigen prijzen in.",
 
-    "benefits.title": "Waarom lesgeven via Surfbro's?",
+    "benefits.title": "Waarom lesgeven via Wavemate?",
     "benefits.lead": "Alle vrijheid van zelfstandig lesgeven, zonder het geregel.",
     "card1.title": "Wij regelen het matchen", "card1.text": "Cursisten vinden jou via het platform. Geen marketing, geen flyers — jij focust op surfen.",
-    "card2.title": "Bouw je reputatie op", "card2.text": "Verzamel reviews en ratings en word de go-to surfbro op jouw spot.",
+    "card2.title": "Bouw je reputatie op", "card2.text": "Verzamel reviews en ratings en word de go-to wavemate op jouw spot.",
     "card3.title": "Vertrouwd & veilig", "card3.text": "Geverifieerde profielen en veilige betalingen via het platform.",
     "card4.title": "Alles in één app", "card4.text": "Profiel, agenda, berichten en boekingen — alles op één plek.",
 
     "fomo.badge": "⚡ Beperkt — alleen voor de eerste lichting",
-    "fomo.title": "De eerste surfbro's krijgen een streepje voor",
+    "fomo.title": "De eerste wavemates krijgen een streepje voor",
     "fomo.lead": "We starten in Scheveningen, en de surfers die zich nu aanmelden krijgen voorrang: een plek op de wachtlijst, een uitgelicht profiel bij de lancering en als eerste cursisten. Wie het eerst staat, surft het eerst.",
     "fomo.cta": "Claim mijn plek",
 
     "signup.title": "Blijf op de hoogte & meld je aan",
-    "signup.lead": "Laat je e-mailadres achter. Je hoort als eerste wanneer Surfbro's live gaat — en jij staat vooraan in de rij als surfbro.",
+    "signup.lead": "Laat je e-mailadres achter. Je hoort als eerste wanneer Wavemate live gaat — en jij staat vooraan in de rij als wavemate.",
     "signup.placeholder": "jouw@email.nl",
     "signup.button": "Houd mij op de hoogte",
     "signup.error": "Vul een geldig e-mailadres in.",
-    "signup.privacy": "We gebruiken je e-mail alleen om je op de hoogte te houden van Surfbro's. Geen spam, uitschrijven kan altijd.",
+    "signup.privacy": "We gebruiken je e-mail alleen om je op de hoogte te houden van Wavemate. Geen spam, uitschrijven kan altijd.",
     "success.title": "Je staat op de lijst!",
-    "success.text": "Top — je hoort als eerste wanneer Surfbro's live gaat in Scheveningen. Tot in het water! 🌊",
+    "success.text": "Top — je hoort als eerste wanneer Wavemate live gaat in Scheveningen. Tot in het water! 🌊",
 
     "footer.text": "Het platform dat lokale surfers en beginners samenbrengt. We bouwen nog — dit is een eerste blik. Start: Scheveningen 🏖️",
-    "footer.copy": "© <span id=\"year\"></span> Surfbro's · Met liefde voor de zee gemaakt."
+    "footer.copy": "© <span id=\"year\"></span> Wavemate · Met liefde voor de zee gemaakt."
   },
 
   en: {
-    "doc.title": "Surfbro's — Become a surfbro in Scheveningen",
+    "doc.title": "Wavemate — Become a wavemate in Scheveningen",
     "nav.cta": "Stay updated",
 
     "hero.badge": "🏄 Launching soon",
     "hero.title": "Share your passion for surfing.<br><span class=\"accent\">And get paid for it.</span>",
-    "hero.sub": "Surfbro's is the new platform where local surfers give private and group lessons. On your schedule, your spot, your rate. No boss, no fixed hours.",
+    "hero.sub": "Wavemate is the new platform where local surfers give private and group lessons. On your schedule, your spot, your rate. No boss, no fixed hours.",
     "hero.cta1": "Become a surf instructor",
     "hero.cta2": "How it works",
     "hero.note": "Free & no strings · no commitment",
-    "hero.shotalt": "Surfbro's app — book a local surfer in Scheveningen",
+    "hero.shotalt": "Wavemate app — book a local surfer in Scheveningen",
 
     "kans.title": "Your skills are worth money",
-    "kans.lead": "You're in the water anyway. On Surfbro's you simply earn from what you love most.",
+    "kans.lead": "You're in the water anyway. On Wavemate you simply earn from what you love most.",
     "stat1.num": "Set your own rate", "stat1.label": "Private or group, peak season or weekday — you price it how you like.",
     "stat2.num": "Fully flexible", "stat2.label": "Teach whenever suits you. Once a week or every day.",
     "stat3.num": "Start for free", "stat3.label": "€0 to start — signing up is completely free.",
 
     "how.title": "How it works",
     "how.lead": "From profile to your first paid lesson in a few steps.",
-    "step1.title": "Create your surfbro profile",
+    "step1.title": "Create your wavemate profile",
     "step1.text": "Tell people who you are, add your level and show your certificates — first aid, water safety or an instructor diploma. Students instantly see what you bring.",
-    "step1.shotalt": "Surfbro profile with badges, reviews and sessions & pricing",
+    "step1.shotalt": "Wavemate profile with badges, reviews and sessions & pricing",
     "step2.title": "Students find & book you",
     "step2.text": "Beginners search by location, level and session type, compare ratings and reviews, and book you directly. Great reviews? You become the 'Top match'.",
-    "step2.shotalt": "Search results with available surfbros, ratings and 'Top match'",
+    "step2.shotalt": "Search results with available wavemates, ratings and 'Top match'",
     "step3.title": "Set your sessions, price & earn",
     "step3.text": "Private, semi-private or surf guiding — you decide what you offer and for how much. You teach, your student has a blast, and you get paid.",
 
@@ -101,29 +101,29 @@ var I18N = {
     "price.perhour": "per hour", "price.pp": "per person / hr",
     "price.note": "Example rates — you set your own prices.",
 
-    "benefits.title": "Why teach with Surfbro's?",
+    "benefits.title": "Why teach with Wavemate?",
     "benefits.lead": "All the freedom of teaching independently, without the hassle.",
     "card1.title": "We handle the matching", "card1.text": "Students find you through the platform. No marketing, no flyers — you focus on surfing.",
-    "card2.title": "Build your reputation", "card2.text": "Collect reviews and ratings and become the go-to surfbro on your spot.",
+    "card2.title": "Build your reputation", "card2.text": "Collect reviews and ratings and become the go-to wavemate on your spot.",
     "card3.title": "Trusted & safe", "card3.text": "Verified profiles and secure payments through the platform.",
     "card4.title": "Everything in one app", "card4.text": "Profile, calendar, messages and bookings — all in one place.",
 
-    "fomo.badge": "⚡ Limited — first wave of surfbros only",
-    "fomo.title": "The first surfbros get a head start",
+    "fomo.badge": "⚡ Limited — first wave of wavemates only",
+    "fomo.title": "The first wavemates get a head start",
     "fomo.lead": "We're starting in Scheveningen, and the surfers who sign up now get priority: a spot on the waitlist, a featured profile at launch, and the first students. First in, first out on the water.",
     "fomo.cta": "Claim my spot",
 
     "signup.title": "Stay in the loop & sign up",
-    "signup.lead": "Leave your email. You'll be the first to know when Surfbro's goes live — and you'll be first in line as a surfbro.",
+    "signup.lead": "Leave your email. You'll be the first to know when Wavemate goes live — and you'll be first in line as a wavemate.",
     "signup.placeholder": "you@email.com",
     "signup.button": "Keep me posted",
     "signup.error": "Please enter a valid email address.",
-    "signup.privacy": "We only use your email to keep you posted about Surfbro's. No spam, unsubscribe anytime.",
+    "signup.privacy": "We only use your email to keep you posted about Wavemate. No spam, unsubscribe anytime.",
     "success.title": "You're on the list!",
-    "success.text": "Awesome — you'll be the first to hear when Surfbro's launches in Scheveningen. See you in the water! 🌊",
+    "success.text": "Awesome — you'll be the first to hear when Wavemate launches in Scheveningen. See you in the water! 🌊",
 
     "footer.text": "The platform connecting local surfers and beginners. Still building — this is a first look. Starting in Scheveningen 🏖️",
-    "footer.copy": "© <span id=\"year\"></span> Surfbro's · Made with love for the sea."
+    "footer.copy": "© <span id=\"year\"></span> Wavemate · Made with love for the sea."
   }
 };
 

@@ -1,19 +1,29 @@
 # Afbeeldingen
 
-| Bestandsnaam        | Wat                                               | Waar op de site             |
-| ------------------- | ------------------------------------------------- | --------------------------- |
-| `logo.png`          | Het Surfbro's-logo (uit `app-home.png` geknipt)   | Header (links bovenaan)     |
-| `app-home.png`      | Het startscherm ("Boek een local surfer …")       | Hero — telefoonbeeld        |
-| `app-profile.png`   | Het instructeursprofiel (Milan, badges, prijzen)  | Stap 1 — "Maak je profiel"  |
-| `app-search.png`    | De zoekresultaten ("Beschikbare surfbro's")       | Stap 2 — "Cursisten vinden" |
+| Bestandsnaam               | Wat                                               | Waar op de site             |
+| -------------------------- | ------------------------------------------------- | --------------------------- |
+| `logo-wavemate.png`        | **Nieuw Wavemate-logo** (transparant) — aanleveren | Header (links bovenaan)     |
+| `logo-wavemate-white.png`  | **Witte variant** van het Wavemate-logo — aanleveren | Footer (donkere balk)     |
+| `app-home.png`             | Het startscherm ("Boek een local surfer …")       | Hero — telefoonbeeld        |
+| `app-profile.png`          | Het instructeursprofiel (Milan, badges, prijzen)  | Stap 1 — "Maak je profiel"  |
+| `app-search.png`           | De zoekresultaten                                 | Stap 2 — "Cursisten vinden" |
 
-De huisstijl is afgestemd op deze screenshots:
-- **Kleuren** zijn exact uit `app-home.png` gemeten — navy `#0a2240` (logo
-  `#061b39`) en teal `#1a8fa3`. Ze staan als variabelen bovenaan `styles.css`.
-- **Logo** (`logo.png`) is rechtstreeks uit `app-home.png` geknipt, dus exact
-  gelijk aan de app. Heb je een schonere/transparante versie? Vervang het bestand
-  gewoon (zelfde naam).
-- **Achtergrond** is wit/licht, net als de app (zie het profiel- en zoekscherm).
+## Nieuwe naam: Wavemate
+
+De site heet nu **Wavemate**. Het beeld-logo komt nog:
+- Zet het nieuwe logo neer als **`logo-wavemate.png`** (transparant) en een witte
+  versie als **`logo-wavemate-white.png`**. Zolang die ontbreken, toont de site
+  netjes het tekst-logo "Wavemate".
+- De **favicon** (`favicon.png`) is enkel het golfje — past nog steeds.
+- Let op: deze bestanden tonen nog de **oude** naam "Surfbro's" en worden
+  vervangen zodra je het nieuwe logo/screenshots aanlevert: `og-image.png`
+  (deel-preview) en de drie `app-*.png` screenshots. De oude `logo.png` /
+  `logo-white.png` worden niet meer gebruikt.
+
+De huisstijl is afgestemd op de app-screenshots:
+- **Kleuren** zijn exact uit `app-home.png` gemeten — navy `#0a2240`, teal
+  `#1a8fa3` — en staan als variabelen bovenaan `styles.css`.
+- **Achtergrond** is wit/licht, net als de app.
 
 Wil je een screenshot vervangen of bijwerken? Upload 'm met dezelfde naam.
 Ontbreekt een bestand, dan toont de site een nette tijdelijke plek.

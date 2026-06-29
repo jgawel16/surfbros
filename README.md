@@ -1,4 +1,4 @@
-# Surfbro's — placeholder landingspagina
+# Wavemate — placeholder landingspagina
 
 Een simpele, mobiel-vriendelijke one-page website om te inventariseren hoeveel
 mensen zich als surfinstructeur willen aanmelden. De echte site (een platform
@@ -6,7 +6,8 @@ waar vaardige surfers betaald les geven) wordt later gebouwd.
 
 De pagina informeert de bezoeker over het idee, laat de voordelen zien en
 verleidt hem/haar om een e-mailadres achter te laten via een Google Form.
-De huisstijl (navy + teal, script-logo) volgt de echte Surfbro's-app.
+De huisstijl (navy + teal, script-logo) volgt de echte app. De merknaam is
+**Wavemate** (voorheen Surfbro's); het nieuwe beeld-logo wordt nog aangeleverd.
 
 ## Tweetalig (NL / EN)
 
@@ -74,7 +75,7 @@ GitHub. Zolang een bestand ontbreekt toont de site een nette tijdelijke plek.
 ### 2. Tekst checken
 
 De FOMO/voordeel-tekst staat in `script.js` onder de sleutel `fomo.lead`
-(in `nl` én `en`). Vul daar het concrete voordeel in dat de eerste surfbro's
+(in `nl` én `en`). Vul daar het concrete voordeel in dat de eerste wavemates
 krijgen.
 
 ## 🚀 Live zetten met GitHub Pages
