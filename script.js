@@ -20,7 +20,7 @@ var I18N = {
     "kans.lead": "Je staat toch al in het water. Op Surfbro's maak je simpelweg je verdienste van wat je het liefste doet.",
     "stat1.num": "Bepaal je eigen tarief", "stat1.label": "Privé of groep, hoog seizoen of doordeweeks — jij prijst zoals jij wilt.",
     "stat2.num": "Volledig flexibel", "stat2.label": "Geef les wanneer het jou uitkomt. Eén keer per week of elke dag.",
-    "stat3.num": "€0", "stat3.label": "opstartkosten — aanmelden is gratis",
+    "stat3.num": "Gratis starten", "stat3.label": "€0 opstartkosten — aanmelden is helemaal gratis.",
 
     "how.title": "Zo werkt het",
     "how.lead": "In een paar stappen van profiel naar je eerste betaalde les.",
@@ -81,7 +81,7 @@ var I18N = {
     "kans.lead": "You're in the water anyway. On Surfbro's you simply earn from what you love most.",
     "stat1.num": "Set your own rate", "stat1.label": "Private or group, peak season or weekday — you price it how you like.",
     "stat2.num": "Fully flexible", "stat2.label": "Teach whenever suits you. Once a week or every day.",
-    "stat3.num": "€0", "stat3.label": "to start — signing up is free",
+    "stat3.num": "Start for free", "stat3.label": "€0 to start — signing up is completely free.",
 
     "how.title": "How it works",
     "how.lead": "From profile to your first paid lesson in a few steps.",
