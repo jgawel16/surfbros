@@ -9,7 +9,7 @@ var I18N = {
     "nav.cta": "Op de hoogte blijven",
 
     "hero.badge": "🏄 Binnenkort live",
-    "hero.title": "Deel je liefde voor surfen.<br><span class=\"accent\">En verdien eraan.</span>",
+    "hero.title": "Deel je passie voor surfen.<br><span class=\"accent\">En verdien eraan.</span>",
     "hero.sub": "Surfbro's wordt hét platform waar lokale surfers privé- en groepsles geven. Op jouw tijden, jouw locatie en jouw tarief. Geen baas, geen vaste uren.",
     "hero.cta1": "Meld je aan als surfleraar",
     "hero.cta2": "Hoe werkt het?",
@@ -72,7 +72,7 @@ var I18N = {
     "nav.cta": "Stay updated",
 
     "hero.badge": "🏄 Launching soon",
-    "hero.title": "Share your love for surfing.<br><span class=\"accent\">And get paid for it.</span>",
+    "hero.title": "Share your passion for surfing.<br><span class=\"accent\">And get paid for it.</span>",
     "hero.sub": "Surfbro's is the new platform where local surfers give private and group lessons. On your schedule, your spot, your rate. No boss, no fixed hours.",
     "hero.cta1": "Become a surf instructor",
     "hero.cta2": "How it works",
