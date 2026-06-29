@@ -6,23 +6,23 @@
 var I18N = {
   nl: {
     "doc.title": "Surfbro's — Word surfbro in Scheveningen",
-    "nav.cta": "Laat je e-mail achter",
+    "nav.cta": "Op de hoogte blijven",
 
-    "hero.badge": "🏄 Binnenkort live · we starten in Scheveningen",
-    "hero.title": "Jij kunt surfen.<br><span class=\"accent\">Word betaald om het door te geven.</span>",
-    "hero.sub": "Surfbro's wordt hét platform waar lokale surfers privé- en groepsles geven in Scheveningen — op jouw tijden, jouw locatie en jouw tarief. Geen baas, geen vaste uren.",
-    "hero.cta1": "Meld je aan als surfbro",
+    "hero.badge": "🏄 Binnenkort live",
+    "hero.title": "Deel je liefde voor surfen.<br><span class=\"accent\">En verdien eraan.</span>",
+    "hero.sub": "Surfbro's wordt hét platform waar lokale surfers privé- en groepsles geven. Op jouw tijden, jouw locatie en jouw tarief. Geen baas, geen vaste uren.",
+    "hero.cta1": "Meld je aan als surfleraar",
     "hero.cta2": "Hoe werkt het?",
-    "hero.note": "Gratis & vrijblijvend · 30 seconden · je zit nergens aan vast",
+    "hero.note": "Gratis & vrijblijvend · je zit nergens aan vast",
     "hero.shotalt": "Surfbro's app — boek een local surfer in Scheveningen",
 
     "kans.title": "Jouw skills zijn geld waard",
-    "kans.lead": "Je staat toch al in het water. Op Surfbro's maak je simpelweg je verdienste van wat je het liefste doet. Surfbro's in Scheveningen vragen nu al €30 tot €45 per uur.",
+    "kans.lead": "Je staat toch al in het water. Op Surfbro's maak je simpelweg je verdienste van wat je het liefste doet.",
     "stat1.num": "€30–45", "stat1.label": "per uur — jij bepaalt je eigen tarief",
     "stat2.num": "Jij", "stat2.label": "kiest je eigen tijden en locatie",
     "stat3.num": "€0", "stat3.label": "opstartkosten — aanmelden is gratis",
 
-    "how.title": "Zo werkt het straks",
+    "how.title": "Zo werkt het",
     "how.lead": "In een paar stappen van profiel naar je eerste betaalde les.",
     "step1.title": "Maak je surfbro-profiel",
     "step1.text": "Vertel wie je bent, voeg je niveau toe en laat je certificaten zien — EHBO, Water Safety of een instructeursdiploma. Cursisten zien meteen wat je in huis hebt.",
@@ -69,23 +69,23 @@ var I18N = {
 
   en: {
     "doc.title": "Surfbro's — Become a surfbro in Scheveningen",
-    "nav.cta": "Get notified",
+    "nav.cta": "Stay updated",
 
-    "hero.badge": "🏄 Launching soon · starting in Scheveningen",
-    "hero.title": "You can surf.<br><span class=\"accent\">Get paid to pass it on.</span>",
-    "hero.sub": "Surfbro's is the new platform where local surfers give private and group lessons in Scheveningen — on your schedule, your spot, your rate. No boss, no fixed hours.",
-    "hero.cta1": "Become a surfbro",
+    "hero.badge": "🏄 Launching soon",
+    "hero.title": "Share your love for surfing.<br><span class=\"accent\">And get paid for it.</span>",
+    "hero.sub": "Surfbro's is the new platform where local surfers give private and group lessons. On your schedule, your spot, your rate. No boss, no fixed hours.",
+    "hero.cta1": "Become a surf instructor",
     "hero.cta2": "How it works",
-    "hero.note": "Free & no strings · 30 seconds · no commitment",
+    "hero.note": "Free & no strings · no commitment",
     "hero.shotalt": "Surfbro's app — book a local surfer in Scheveningen",
 
     "kans.title": "Your skills are worth money",
-    "kans.lead": "You're in the water anyway. On Surfbro's you simply earn from what you love most. Surfbros in Scheveningen already charge €30 to €45 per hour.",
+    "kans.lead": "You're in the water anyway. On Surfbro's you simply earn from what you love most.",
     "stat1.num": "€30–45", "stat1.label": "per hour — you set your own rate",
     "stat2.num": "You", "stat2.label": "choose your own hours and spot",
     "stat3.num": "€0", "stat3.label": "to start — signing up is free",
 
-    "how.title": "Here's how it'll work",
+    "how.title": "How it works",
     "how.lead": "From profile to your first paid lesson in a few steps.",
     "step1.title": "Create your surfbro profile",
     "step1.text": "Tell people who you are, add your level and show your certificates — first aid, water safety or an instructor diploma. Students instantly see what you bring.",
