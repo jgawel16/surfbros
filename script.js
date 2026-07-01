@@ -28,8 +28,8 @@ var I18N = {
     "step2.title": "Cursisten vinden & boeken jou",
     "step2.text": "Op basis van locatie, niveau, sessietype, ratings en reviews. Is er een match? Dan boeken ze rechtstreeks bij jou.",
     "step2.shotalt": "Zoekresultaten met beschikbare wavemates, ratings en 'Top match'",
-    "step3.title": "Bepaal je sessies, prijs & verdien",
-    "step3.text": "Privéles, semi-privé of surf guiding — jij bepaalt wat je aanbiedt en voor hoeveel. Jij geeft de les, de cursist geniet, en jij wordt betaald.",
+    "step3.title": "Bepaal je sessies en prijs, en start met lesgeven.",
+    "step3.text": "Privéles of groepsles, jij bepaalt wat je aanbiedt en voor hoeveel.",
 
     "price.title": "Sessies & prijzen",
     "price.r1name": "Privé surfles", "price.r1sub": "1-op-1 begeleiding",
@@ -87,8 +87,8 @@ var I18N = {
     "step2.title": "Students find & book you",
     "step2.text": "Based on location, level, session type, ratings and reviews. A match? Then they book directly with you.",
     "step2.shotalt": "Search results with available wavemates, ratings and 'Top match'",
-    "step3.title": "Set your sessions, price & earn",
-    "step3.text": "Private, semi-private or surf guiding — you decide what you offer and for how much. You teach, your student has a blast, and you get paid.",
+    "step3.title": "Set your sessions and price, and start teaching.",
+    "step3.text": "Private or group lessons — you decide what you offer and for how much.",
 
     "price.title": "Sessions & pricing",
     "price.r1name": "Private lesson", "price.r1sub": "1-on-1 coaching",
