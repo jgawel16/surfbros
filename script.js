@@ -47,7 +47,7 @@ var I18N = {
 
     "fomo.badge": "⚡ Beperkt — alleen voor de eerste lichting",
     "fomo.title": "De eerste wavemates krijgen een streepje voor",
-    "fomo.lead": "We starten in Scheveningen, en de surfers die zich nu aanmelden krijgen voorrang: een plek op de wachtlijst, een uitgelicht profiel bij de lancering en als eerste cursisten. Wie het eerst staat, surft het eerst.",
+    "fomo.lead": "Bij de lancering krijgen instructeurs die zich nu aanmelden voorrang: een plek op de wachtlijst en een uitgelicht profiel.",
     "fomo.cta": "Claim mijn plek",
 
     "signup.title": "Blijf op de hoogte & meld je aan",
@@ -106,7 +106,7 @@ var I18N = {
 
     "fomo.badge": "⚡ Limited — first wave of wavemates only",
     "fomo.title": "The first wavemates get a head start",
-    "fomo.lead": "We're starting in Scheveningen, and the surfers who sign up now get priority: a spot on the waitlist, a featured profile at launch, and the first students. First in, first out on the water.",
+    "fomo.lead": "At launch, instructors who sign up now get priority: a spot on the waitlist and a featured profile.",
     "fomo.cta": "Claim my spot",
 
     "signup.title": "Stay in the loop & sign up",
