@@ -50,8 +50,8 @@ var I18N = {
     "fomo.lead": "Bij de lancering krijgen instructeurs die zich nu aanmelden voorrang: een plek op de wachtlijst en een uitgelicht profiel.",
     "fomo.cta": "Claim mijn plek",
 
-    "signup.title": "Blijf op de hoogte & meld je aan",
-    "signup.lead": "Laat je e-mailadres achter. Je hoort als eerste wanneer Wavemate live gaat — en jij staat vooraan in de rij als wavemate.",
+    "signup.title": "Stoked? Blijf op de hoogte & meld je aan",
+    "signup.lead": "Laat je e-mailadres achter. Je hoort als eerste wanneer Wavemate live gaat en jij zit vooraan in de lineup als wavemate!",
     "signup.placeholder": "jouw@email.nl",
     "signup.button": "Houd mij op de hoogte",
     "signup.error": "Vul een geldig e-mailadres in.",
@@ -109,8 +109,8 @@ var I18N = {
     "fomo.lead": "At launch, instructors who sign up now get priority: a spot on the waitlist and a featured profile.",
     "fomo.cta": "Claim my spot",
 
-    "signup.title": "Stay in the loop & sign up",
-    "signup.lead": "Leave your email. You'll be the first to know when Wavemate goes live — and you'll be first in line as a wavemate.",
+    "signup.title": "Stoked? Stay in the loop & sign up",
+    "signup.lead": "Leave your email. You'll be the first to know when Wavemate goes live and you'll be right at the front of the lineup as a wavemate!",
     "signup.placeholder": "you@email.com",
     "signup.button": "Keep me posted",
     "signup.error": "Please enter a valid email address.",
