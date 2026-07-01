@@ -59,7 +59,7 @@ var I18N = {
     "success.title": "Je staat op de lijst!",
     "success.text": "Top — je hoort als eerste wanneer Wavemate live gaat in Scheveningen. Tot in het water! 🌊",
 
-    "footer.text": "Het platform dat lokale surfers en beginners samenbrengt. We bouwen nog — dit is een eerste blik. Start: Scheveningen 🏖️",
+    "footer.text": "Het platform dat lokale surfers en beginners samenbrengt.",
     "footer.copy": "© <span id=\"year\"></span> Wavemate · Met liefde voor de zee gemaakt."
   },
 
@@ -118,7 +118,7 @@ var I18N = {
     "success.title": "You're on the list!",
     "success.text": "Awesome — you'll be the first to hear when Wavemate launches in Scheveningen. See you in the water! 🌊",
 
-    "footer.text": "The platform connecting local surfers and beginners. Still building — this is a first look. Starting in Scheveningen 🏖️",
+    "footer.text": "The platform connecting local surfers and beginners.",
     "footer.copy": "© <span id=\"year\"></span> Wavemate · Made with love for the sea."
   }
 };
