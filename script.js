@@ -16,9 +16,9 @@ var I18N = {
     "hero.note": "Gratis & vrijblijvend · je zit nergens aan vast",
     "hero.shotalt": "Wavemate app — boek een local surfer in Scheveningen",
 
-    "stat1.num": "Bepaal je eigen tarief", "stat1.label": "Privé of groep, hoog seizoen of doordeweeks — jij prijst zoals jij wilt.",
-    "stat2.num": "Volledig flexibel", "stat2.label": "Geef les wanneer het jou uitkomt. Eén keer per week of elke dag.",
-    "stat3.num": "Gratis starten", "stat3.label": "€0 opstartkosten — aanmelden is helemaal gratis.",
+    "stat1.num": "Bepaal je eigen tarief", "stat1.label": "Jij prijst zoals jij wilt.",
+    "stat2.num": "Volledig flexibel", "stat2.label": "Geef les wanneer het jou uitkomt.",
+    "stat3.num": "Aanmelden is gratis", "stat3.label": "€0 opstartkosten.",
 
     "how.title": "Zo werkt het",
     "how.lead": "In een paar stappen van profiel naar je eerste betaalde les.",
@@ -75,9 +75,9 @@ var I18N = {
     "hero.note": "Free & no strings · no commitment",
     "hero.shotalt": "Wavemate app — book a local surfer in Scheveningen",
 
-    "stat1.num": "Set your own rate", "stat1.label": "Private or group, peak season or weekday — you price it how you like.",
-    "stat2.num": "Fully flexible", "stat2.label": "Teach whenever suits you. Once a week or every day.",
-    "stat3.num": "Start for free", "stat3.label": "€0 to start — signing up is completely free.",
+    "stat1.num": "Set your own rate", "stat1.label": "You price it however you like.",
+    "stat2.num": "Fully flexible", "stat2.label": "Teach whenever it suits you.",
+    "stat3.num": "Signing up is free", "stat3.label": "€0 to start.",
 
     "how.title": "How it works",
     "how.lead": "From profile to your first paid lesson in a few steps.",
