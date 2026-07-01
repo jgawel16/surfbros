@@ -16,8 +16,6 @@ var I18N = {
     "hero.note": "Gratis & vrijblijvend · je zit nergens aan vast",
     "hero.shotalt": "Wavemate app — boek een local surfer in Scheveningen",
 
-    "kans.title": "Jouw skills zijn geld waard",
-    "kans.lead": "Je staat toch al in het water. Op Wavemate maak je simpelweg je verdienste van wat je het liefste doet.",
     "stat1.num": "Bepaal je eigen tarief", "stat1.label": "Privé of groep, hoog seizoen of doordeweeks — jij prijst zoals jij wilt.",
     "stat2.num": "Volledig flexibel", "stat2.label": "Geef les wanneer het jou uitkomt. Eén keer per week of elke dag.",
     "stat3.num": "Gratis starten", "stat3.label": "€0 opstartkosten — aanmelden is helemaal gratis.",
@@ -77,8 +75,6 @@ var I18N = {
     "hero.note": "Free & no strings · no commitment",
     "hero.shotalt": "Wavemate app — book a local surfer in Scheveningen",
 
-    "kans.title": "Your skills are worth money",
-    "kans.lead": "You're in the water anyway. On Wavemate you simply earn from what you love most.",
     "stat1.num": "Set your own rate", "stat1.label": "Private or group, peak season or weekday — you price it how you like.",
     "stat2.num": "Fully flexible", "stat2.label": "Teach whenever suits you. Once a week or every day.",
     "stat3.num": "Start for free", "stat3.label": "€0 to start — signing up is completely free.",
